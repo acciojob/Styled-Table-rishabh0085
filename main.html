@@ -2,14 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>COVID-19 Statistics</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+    <table>
+        <caption>COVID-19 Statistics by Country</caption>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Total Cases</th>
+                <th>Total Deaths</th>
+                <th>Total Recovered</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>USA</td>
+                <td>45,678,901</td>
+                <td>675,432</td>
+                <td>35,987,654</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>40,123,456</td>
+                <td>501,234</td>
+                <td>38,987,654</td>
+            </tr>
+            <tr>
+                <td>Brazil</td>
+                <td>25,678,901</td>
+                <td>876,543</td>
+                <td>23,456,789</td>
+            </tr>
+            <tr>
+                <td>Russia</td>
+                <td>15,987,654</td>
+                <td>345,678</td>
+                <td>14,876,543</td>
+            </tr>
+            <tr>
+                <td>UK</td>
+                <td>10,234,567</td>
+                <td>198,765</td>
+                <td>9,876,543</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
